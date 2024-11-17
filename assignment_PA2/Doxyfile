@@ -1,0 +1,33 @@
+# Project information
+PROJECT_NAME           = "ASSIGNMENT-PA2 : Finite Element Analysis (FEM)"
+PROJECT_VERSION        = "1.0"
+PROJECT_BRIEF          = "Finite Element Analysis project for computing global stiffness matrix."
+
+# Input files and directories
+INPUT                  = ./src ./inc
+FILE_PATTERNS          = *.cpp *.h
+
+# Output settings
+OUTPUT_DIRECTORY       = ./docs
+GENERATE_HTML          = YES         # Enable HTML output
+HTML_OUTPUT            = html        # Output folder for HTML files
+
+# LaTeX output settings
+GENERATE_LATEX         = YES         # Enable LaTeX output
+LATEX_OUTPUT           = latex       # Output folder for LaTeX files 
+
+# Documentation extraction settings
+EXTRACT_PRIVATE        = YES         # Include private members
+EXTRACT_PROTECTED      = YES         # Include protected members
+EXTRACT_STATIC         = YES         # Include static members
+
+# Generate search engine for HTML
+SEARCHENGINE           = YES
+
+# Enable class diagrams and include Graphviz
+INCLUDE_GRAPH          = YES
+INCLUDE_DOT            = YES
+
+# Enable recursive file inclusion
+RECURSIVE              = YES
+
